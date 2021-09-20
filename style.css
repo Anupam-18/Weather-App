@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+html {
+font-size: 67.5%;
+}
+
+body {
+background-color: #eee;
+font-family: "Montserrat", sans-serif;
+}
+
+.content {
+width: 70%;
+margin: auto;
+border: 0.4rem solid blueviolet;
+word-break: break-all;
+white-space: pre-wrap;
+}
+
+.header {
+background-color: #4472c4;
+color: #ffffff;
+width: 100%;
+font-size: 2rem;
+font-weight: 300;
+text-align: center;
+padding: 0.4rem;
+}
+
+.left {
+display: flex;
+flex-direction: column;
+border-right: 0.2rem solid black;
+padding: 2rem;
+width: 20%;
+position: fixed;
+/* left: 0; */
+}
+
+.left .getWeatherbtn {
+padding: 0.3rem;
+color: #ffffff;
+background-color: #4472c4;
+border-radius: 0.5rem;
+font-size: 1.2rem;
+font-weight: 400;
+text-align: center;
+margin-bottom: 0.2rem;
+cursor: pointer;
+}
+
+.cityList {
+display: flex;
+flex-direction: column;
+}
+
+.cityList p {
+padding: 0.2rem;
+color: #ffffff;
+background-color: #4472c4;
+border-radius: 0.5rem;
+font-size: 1.2rem;
+font-weight: 400;
+text-align: center;
+}
+
+.cityList ul {
+list-style: none;
+margin-top: 0.2rem;
+border: 0.4rem solid #ccc;
+}
+
+.cityList ul li {
+margin-top: 0.6rem;
+color: #000000;
+font-weight: 200;
+font-size: 1.2rem;
+}
+
+.addBorder {
+border: 0.3rem solid green;
+border-bottom: 0.3rem solid green;
+}
+
+.right {
+padding: 1rem;
+width: 75%;
+margin-left: 25%;
+}
+
+.right .searchBar input {
+outline: none;
+padding: 0.5rem;
+border-radius: 0.5rem;
+border-color: lightblue;
+}
+
+.right .searchBar {
+float: right;
+display: flex;
+}
+
+.right .searchBar a {
+padding: 0.5rem;
+background-color: #4472c4;
+color: #ffffff;
+font-size: 1.2rem;
+border-radius: 0.5rem;
+margin-left: -0.6rem;
+cursor: pointer;
+}
+
+.table {
+table-layout: fixed;
+width: 100%;
+border-collapse: collapse;
+margin-top: 4rem;
+}
+
+.row0 {
+border: 0.1rem solid #000000;
+border-top: none;
+}
+
+.row1 {
+border: 0.1rem solid #000000;
+border-top: none;
+}
+
+.row2 {
+border: 0.1rem solid #000000;
+border-top: none;
+}
+
+.row3 {
+border: 0.1rem solid #000000;
+border-top: none;
+}
+
+.table thead {
+background-color: #4472c4;
+color: #ffffff;
+}
+
+th,
+td {
+padding: 0.5em;
+border-right: 0.5px solid #ccc;
+overflow-wrap: anywhere;
+}
